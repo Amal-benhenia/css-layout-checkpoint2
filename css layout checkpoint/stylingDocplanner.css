@@ -1,0 +1,449 @@
+body {
+    margin:20%;
+    margin-top: 0%;
+    
+}
+header {
+    position: -webkit-sticky;
+position: sticky;
+top:0px;
+height : 40px;
+
+
+}
+.general-info img {
+    padding-top: 50px;
+}
+
+nav li{
+    list-style-type: none;
+    margin-right: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    display: inline;
+    
+    
+}
+nav ul {
+    display:flex;
+    justify-content: flex-end;
+    background-color:white;
+    
+
+    
+    
+}
+.nav-items a {
+    text-decoration: none;
+    color:darkgray;
+
+
+
+}
+.nav-items a:hover {
+    color: #00b390;
+
+}
+.nav-items:first-child {
+    margin-right: auto;
+    
+}
+.header {
+    background-color: white;
+    position:sticky;
+    top:0;
+    width:100%;
+    
+}
+ 
+.general-info {
+    text-align: center;
+}
+.general-info h1 {
+    color:#00b390;
+    font-size: 2.125rem;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+
+.paragraph {
+    display:flex;
+    height: 200px;
+    text-indent: 0;
+    line-height:1.8;
+    
+      }
+.names img {
+    height:20px;
+    
+}  
+.logo span {
+    color: #ababab;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+} 
+.logo img {
+    height:40px;
+}   
+.names {
+    display: flex;
+    justify-content: space-between;
+}
+.paragraph p {
+    color: #747474;
+    font-family:Arial, Helvetica, sans-serif;
+}    
+.services {
+
+    display:flex;
+    align-items: start;
+    justify-content: space-between;
+    height: 400px;
+    
+    
+    
+}
+.services p {
+    font-family: Work Sans,Arial,sans-serif;
+    color: #ffff;
+    padding-left: 10%;
+   font-size: 25px;
+}
+.services h3 {
+    font-family: Work Sans,Arial,sans-serif;
+    color:#ffff;
+    padding-left: 10%;
+    
+
+}
+
+.for-patients {
+    background-color:#00ccb1;
+    width: 290px;
+    height: 360px;
+    border-radius: 5%;
+    
+    
+    
+}
+.services img {
+    padding-left: 10%;
+
+}
+.for-doctors {
+    background-color: #3d83df;
+    width: 290px;
+    height: 360px;
+    border-radius: 5%;
+    
+
+}
+.for-clinics {
+    background-color: #1b2734;
+    width: 290px;
+    height: 360px;
+    border-radius: 5%;
+    
+}
+#country-select {
+    padding-left: 10%;
+    background-color: #00ccb1;
+    border-color: #00ccb1;
+    color:#e5faf8;
+    text-decoration: underline;
+    font-size: large;
+    cursor: pointer;
+    
+}
+.for-doctors #country-select {
+    background-color: #3d83df;
+    border-color: #3d83df;
+}
+.for-clinics #specialists-select  {
+    padding-left: 10%;
+    background-color: #1b2734;
+    border-color: #1b2734;
+    color:white;
+    text-decoration: underline;
+    font-size: large;
+    cursor: pointer;
+
+}
+.for-clinics #specialists {
+    padding-left: 10%;
+    background-color: #1b2734;
+    border-color: #1b2734;
+    color:white;
+    text-decoration: underline;
+    font-size: large;
+    cursor: pointer;
+
+}
+
+.local {
+
+display:flex;
+
+}
+.local h4 {
+    color:#00b390;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.we {
+    width: 300px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.names {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.countries h3  {
+    text-align: center;
+    font-family: arial;
+    color:#00b390;
+    line-height: 1;
+    
+}
+.countries p  {
+    text-align: center;
+    font-family: arial;
+    color:#747474;
+    line-height:1.8;
+}
+.countries {
+    
+    width: 500px;
+    
+
+        display: table;
+        margin: 0 auto;
+        margin-bottom: 10%;
+      
+    
+}
+.imagetitle {
+    display:flex;
+    background-color:white;
+
+}
+.images {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding-left:5px;
+    border-radius: 5%;
+}
+.imagetitle button {
+    background-color: #3d83df;
+    border-radius:5%;
+    border-color:#3d83df ;
+    height:30px;
+    width:100px;
+    margin-top:3%;
+    margin-bottom: 7%;
+    margin-left: 45%;
+    
+    
+}
+.imagetitle a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size:11px;
+    
+}
+.imagetitle h4 {
+    color: #747474;
+    font-family: arial;
+    font-weight:lighter;
+    font-size: 18px;
+    margin-bottom: 3%;
+
+}
+.more-info h2  {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: 10%;
+    margin-left: 3%;
+}
+.more-info button {
+    background-color: #3d83df;
+    border-radius:5%;
+    border-color:#3d83df ;
+    height:40px;
+    width:200px;
+    
+    margin-bottom: 7%;
+    margin-left: 40%;
+    
+    
+    
+
+}
+.more-info a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size:13px;
+    
+
+
+}
+.final {
+    color:#ababab;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+.footer-countries {
+    text-decoration: none;
+    color:#3d83df;
+    font-weight: lighter;
+    font-size:13px;
+    margin-left: 0;
+    margin-right:0;
+
+}
+.box-footer {
+    padding-top: 70px;
+}
+.stats {
+    background-color: #e5faf8;
+    width: 1000px;
+    height:600px;
+
+    
+}
+.leader {
+    background-color: white;
+    text-align: center;
+    padding:15px;
+    box-sizing: content-box;
+    width: 150px;
+    margin-top: 45px;
+    border-radius: 3%;
+    height:200px;
+    margin-right:0px;
+    margin-left: auto;
+
+}
+.leader p {
+    font-size: 13px;
+    color:#747474 ;
+}
+.leader h3 {
+    color:#00b39b; 
+    font-weight: lighter;
+}
+
+.appointments {
+    background-color: white;
+    text-align: center;
+    box-sizing: content-box;
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 100px;
+    margin-bottom: 0px;
+    height: 230px;
+    border-radius: 3%;
+    
+    
+}
+.appointments p {
+    font-size: 13px;
+    color: #747474;
+
+}
+.appointments h3 {
+    color:#00b39b;
+    font-weight: lighter;
+}
+.numbers-patients {
+    background-color:white ;
+    padding:15px;
+    box-sizing: content-box;
+    width:150px;
+    margin-right: 5px;
+    margin-left: 209px;
+    border-radius: 3%;
+    margin-top: 20px;
+    text-align: center;
+    height:200px;
+
+    
+}
+.numbers-patients p {
+    font-size: 13px;
+    color: #747474;
+}
+.numbers-patients h3 {
+    color:#00b39b;
+    font-weight: lighter;
+
+}
+.numbers-doctors {
+    background-color: white;
+    padding: 15px;
+    box-sizing: content-box;
+    width:150px;
+    margin-left:10px;
+    margin-top: 0px;
+    margin-right:55px;
+   height:200px;
+    border-radius: 3%;
+    text-align: center;
+    
+}
+.numbers-doctors p {
+    font-size: 13px;
+    color: #747474;
+}
+.numbers-doctors h3 {
+    color:#00b39b;
+    font-weight: lighter;
+}
+.container {
+    display: flex;
+
+    
+}
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.introduce p {
+    color:#747474;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.introduce h1 {
+    color: #00b39b;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+   
+   
+
+
+
+
+
+
+ 
+
+            
